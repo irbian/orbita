@@ -103,17 +103,55 @@ textarea {
 
 img { max-width: 100%; }
 
+h1, h2 {
+    text-align: center;
+}
+
 h3 {
     color:  #ae0e18;
+}
+
+/* header */
+#header {
+    overflow: hidden;
+}
+
+.wrapper {
+    padding: 10px 40px;
+    border-width: 40px 20px 0 20px;
+    border-color: #ae0e18;
+    border-style: solid;
+}
+
+.hero {
+    margin: 0 -70px;
+}
+
+/* Events */
+.event {
+    margin-bottom: 20px;
 }
 .event .metadata {
     font-weight: bold;
 }
+.event .date {
+    position: absolute;
+    color: white;
+    background: #ae0e18;
+    top: 0;
+    letter-spacing: 6px;
+    padding: 6px 12px;
+    font-weight: bold;
+    text-align: center;
+}
+    
 
+/* Calendar */
 .calendar table {
     text-align: center;
     border-spacing: 3px;
     border-collapse: separate;
+    margin: auto;
 }
 
 .calendar th {
@@ -122,6 +160,15 @@ h3 {
 
 .calendar td {
     border: 1px solid #d8d9dd;
+    padding: 6px;
+}
+.calendar td:nth-child(6),
+.calendar td:nth-child(7) {
+    background: #d8d9dd;
+}
+.calendar td.active {
+    background: #ae0e18;
+    color: white;
 }
 
 .calendar .month {
