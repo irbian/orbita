@@ -101,9 +101,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+img { max-width: 100%; }
 
-
-
+h3 {
+    color:  #ae0e18;
+}
+.event .metadata {
+    font-weight: bold;
+}
 
 
 
