@@ -6,6 +6,12 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+ /* Base colors
+- Red: #ae0e18
+- Grey: #d8d9dd 
+- Black and white 
+*/ 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -290,4 +296,38 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'webfontregular';
+    src: url('../fonts/futura-book-webfont.woff2') format('woff2'),
+         url('../fonts/futura-book-webfont.woff') format('woff'),
+         url('../fonts/futura-book-webfont.ttf') format('truetype'),
+         url('../fonts/futura-book-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'evogriaregular';
+    src: url('../fonts/evogria-webfont.woff2') format('woff2'),
+         url('../fonts/evogria-webfont.woff') format('woff'),
+         url('../fonts/evogria-webfont.ttf') format('truetype'),
+         url('../fonts/evogria-webfont.svg#evogriaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'evogriaitalic';
+    src: url('../fonts/evogria_italic-webfont.woff2') format('woff2'),
+         url('../fonts/evogria_italic-webfont.woff') format('woff'),
+         url('../fonts/evogria_italic-webfont.ttf') format('truetype'),
+         url('../fonts/evogria_italic-webfont.svg#evogriaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
