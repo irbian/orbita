@@ -172,10 +172,23 @@ h3 {
 
 .hero {
     margin: 0 -70px;
+    position: relative;
 }
 
 .hero img {
     width: 100%;
+}
+
+.hero .hero-event {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 300px;
+    height: 175px;
+    background: white;
+    padding: 0 20px 20px 20px;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
 /* Events */
@@ -231,9 +244,30 @@ h3 {
 
 
 
+/* Footer */
+.social {
+    text-align: center;    
+}
+.social a {
+    color: #000;
+    font-size: 40px;
+    padding: 10px;
+}
 
+.social a:hover {
+    color: #ae0e18;    
+}
 
+.entities-inner {
+    text-align: center;
+}
 
+.entities-inner img {
+    max-height: 62px;
+    width: auto;
+    display: inline-block;
+    padding: 0 20px;
+}
 
 
 
