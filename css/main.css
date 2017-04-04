@@ -101,6 +101,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    min-width: 385px;
+}
 img { max-width: 100%; }
 
 h1, h2 {
@@ -116,6 +119,50 @@ h3 {
     overflow: hidden;
 }
 
+.logo h1 {
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.logo div {
+    text-align: center;
+    color:  #ae0e18;
+    margin-top: -3px;
+    margin-right: 2px;
+}
+
+.search input {
+    text-align: right;
+    margin: 32px 6px;
+    color: #000;
+    background-color: #d8d9dd;
+    width: 100%;
+    padding: 0 5px;
+    border: none;
+}
+
+#header .nav-wrapper {
+    text-align: center;
+}
+
+#header .nav-wrapper .nav {
+    display: inline-block;
+}
+
+#header .nav a {
+    font-family: "evogriaregular";
+    color: #000;
+    font-size: 16px;
+    padding: 10px 6px;
+    margin: 22px 0px;
+}
+
+#header .nav li.active a {
+    color: #ae0e18;
+    background-color: inherit;
+}
+
+
 .wrapper {
     padding: 10px 40px;
     border-width: 40px 20px 0 20px;
@@ -125,6 +172,10 @@ h3 {
 
 .hero {
     margin: 0 -70px;
+}
+
+.hero img {
+    width: 100%;
 }
 
 /* Events */

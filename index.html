@@ -29,7 +29,7 @@
                     <img src="./img/concierto.jpg" />
                 </div>
                 <div class="row">
-                    <div class="events col-sm-9">
+                    <div class="events col-md-8">
                         <h2>Eventos</h2>
                         <div class="event row">
                             <div class="image col-sm-4">
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="calendar col-sm-3">
+                    <div class="calendar col-md-4">
                         <h2>Calendario</h2>
                         <table>
                             <thead>
@@ -159,5 +159,10 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script>
+            $(document).ready(function() {
+                $('.nav-wrapper .inicio').addClass('active');
+            })            
+        </script>
     </body>
 </html>
