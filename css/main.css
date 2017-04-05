@@ -242,6 +242,11 @@ h3 {
     font-family: "evogriaregular";
 }
 
+/* Contact */
+.contact .form-control {
+    margin-bottom: 10px;
+}
+
 
 
 /* Footer */
