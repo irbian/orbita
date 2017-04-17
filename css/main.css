@@ -104,7 +104,10 @@ textarea {
 html {
     min-width: 385px;
 }
-img { max-width: 100%; }
+img { 
+    width: 100%;
+    max-width: 100%; 
+}
 
 h1, h2 {
     text-align: center;
@@ -203,10 +206,14 @@ h3 {
     color: white;
     background: #ae0e18;
     top: 0;
-    letter-spacing: 6px;
+    letter-spacing: 0.5em;
     padding: 6px 12px;
     font-weight: bold;
     text-align: center;
+}
+
+.big-events .event .date {
+    font-size: 2em;
 }
     
 
