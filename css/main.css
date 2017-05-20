@@ -197,14 +197,20 @@ body {
     position: absolute;
     top: 50px;
     right: 50px;
-    width: 300px;
-    height: 175px;
+    width: 275px;
+    height: 165px;
     background: white;
-    padding: 0 20px 20px 20px;
-    border-radius: 20px;
+    padding: 0 15px 15px 15px;
+    border-radius: 15px;
     font-weight: bold;
 }
+.hero .hero-event p {
+    margin-bottom: 5px;
+}
 
+.carousel-indicators .active {
+    background-color: #c9002b;
+}
 /* Events */
 
 .events-inner {
@@ -243,7 +249,21 @@ body {
 .big-events .event .date {
     font-size: 2em;
 }
+.big-events .event .metadata {
+    font-size: 1.2em;
+}
+.big-events .event {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #999;
+    padding-bottom: 20px;
+}
 
+.big-events .events-wrapper {
+    overflow-y: scroll;
+    height: 600px;
+    max-height: 100%;
+    padding: 0 30px;
+}
 .events .description {
     text-align: justify;
 }
@@ -287,13 +307,18 @@ body {
     font-family: "evogriaregular";
 }
 
+.calendar tfoot th {
+    text-align: right;
+}
+
 /* Contact */
 .contact .form-control {
     margin-bottom: 10px;
 }
 
 .contact .data-wrapper {
-    border-right: 1px solid #191e24;   
+    border-left: 1px solid #191e24;   
+    padding-left: 20px;
 }
 
 .contact .send {
